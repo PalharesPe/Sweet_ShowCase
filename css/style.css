@@ -1,0 +1,148 @@
+body{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+body{
+    height: 1080px;
+    background-color: rgb(207, 91, 115);
+}
+.topo{
+    
+    text-align: center;
+}
+.Menu ul {
+	/*Desce o menu*/
+	margin-top: -6px; /*ok*/	
+    padding: 11px;
+    left: -7px;
+    /*Aumenta o fundo do menu*/
+    padding-bottom:11px;
+    background-color: rgba(255, 255, 255, 0.192);
+    text-align: center;
+}
+
+/* Deixa o menu vertical*/
+.Menu ul li { 		
+	display: inline; 
+}
+.menu{
+    
+	width: 1918px;
+	margin-left: -8px;
+	margin-top: 148px;
+	height: 39px;
+	background: white;
+	opacity: 65%;
+	
+}
+/*Menu Palavras*/
+.Menu ul li a {	
+	font-family: 'Courier New', Courier, monospace;
+    padding: 11px 30px;    
+    margin-left:-4px;    
+    font-weight: bold;
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+    border-radius: 8px;
+    
+}
+
+.Menu ul li a:hover {
+    background: rgb(255, 255, 255);
+	color: rgb(177, 60, 124);
+}
+.Menu a.active{
+    background: rgb(255, 255, 255);
+	color: rgb(177, 60, 124);
+    border-radius: 8px;
+}
+
+
+.box{
+    
+    margin: auto;
+    width: 420px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 170px;
+    background-color: rgba(241, 235, 235, 0.452);
+}
+.bolos{
+    color: #f8f5f59d;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+.desc{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -200px;
+    margin-left: 213px;
+    width: 200px;
+    font-size: 12px;
+    color: black;
+}
+.titulo{
+    margin-top: 20x;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(22, 21, 21);
+}
+
+.sobre{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;    
+    
+}
+.contato{
+    color: rgb(199, 13, 13);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+       
+    
+}
+.contato a{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 240);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: rgb(221, 90, 153);
+    display: inline-block;
+    
+}
+.contato a:hover{    
+    
+    background-color: rgb(156, 51, 100);
+}
+
+
+
+
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 5px;    
+    text-align: center;
+    background: #1a1919ea;
+    color: #ffffff9d;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
