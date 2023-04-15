@@ -62,7 +62,7 @@ body{
 
 
 .box{
-    
+    position: relative;
     margin: auto;
     width: 420px;
     height: 250px;
@@ -90,7 +90,7 @@ body{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    color: rgb(22, 21, 21);
+    color: rgb(255, 255, 255);
 }
 
 .sobre{
