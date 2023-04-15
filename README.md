@@ -1,1 +1,3 @@
-# Sweet_ShowCase
+# Sweet ShowCase
+
+Projeto para divulgação
